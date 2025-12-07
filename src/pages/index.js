@@ -127,10 +127,10 @@ function Footer() {
           <div className="col col--2">
             <h5 className={styles.footerSectionTitle}>Connect</h5>
             <ul className={styles.footerLinks}>
-              <li><Link to="https://github.com" target="_blank" rel="noopener">GitHub</Link></li>
+              <li><Link to="https://github.com/muaazasif/physical-ai-robotics-website" target="_blank" rel="noopener">GitHub</Link></li>
               <li><Link to="https://discord.com" target="_blank" rel="noopener">Discord</Link></li>
               <li><Link to="https://twitter.com" target="_blank" rel="noopener">Twitter</Link></li>
-              <li><Link to="/contact">Contact</Link></li>
+
             </ul>
           </div>
         </div>

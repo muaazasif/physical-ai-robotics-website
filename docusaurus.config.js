@@ -27,9 +27,10 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'MuaazAsif', // Usually your GitHub org/user name.
-  projectName: 'humanoid-robotics-book', // Usually your repo name.
-
+  organizationName: 'muaazasif', // Usually your GitHub org/user name.
+  projectName: 'physical-ai-robotics-website', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
+  
   onBrokenLinks: 'throw',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -50,7 +51,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/muaazasif/physical-ai-robotics-website',
         },
         blog: {
           showReadingTime: true,
@@ -61,7 +62,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/muaazasif/physical-ai-robotics-website',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -94,7 +95,7 @@ const config = {
           },
           
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/muaazasif/physical-ai-robotics-website',
             label: 'GitHub',
             position: 'right',
           },
